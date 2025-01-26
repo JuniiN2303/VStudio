@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+
+        #imgsobre {
+            cursor:pointer;
+        }
+
+        .footer {
+            text-align: right;
+        }
+
+        #horarios {
+            margin-top: 45px;
+        }
+
+        table {
+            border: solid 1px ;
+        }
+
+        .content thead td {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #d8ebd8;
+        }
+
+        .content thead th:nth-child(even) {
+            background-color: #afaeae;
+        }
+
+        .content thead th:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        .content thead th:nth-child(7) {
+            background-color: #ff0000;
+        }
+
+        .content thead th{
+            border: solid 1px ;
+        }
+
+        .content tbody td{
+            border: solid 1px ;
+        }
+
+        .content tbody td:nth-child(even) {
+            background-color: #afaeae;
+        }
+
+        .content tbody td:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        .content tbody td:nth-child(7) {
+            background-color: #ff0000;
+        }
+
+        .content tfoot td {
+            background-color: #d8ebd8;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="1.Index.html">Página Inicial</a></li>
+                <li><a href="2.About-us.html">Sobre nós</a></li>
+                <li><a href="3.Atendimento.html">Funcionamento</a></li>
+                <li><a href="4.Contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img id="imgsobre" src="imgs/funcion.png" width="60" >
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h1>Horário de Atendimento</h1>
+
+                <table id="horarios" align="center" cellpadding="3" cellspacing=0 border="0">     
+
+                    <thead>
+                        <tr>
+                            <td colspan="7">Horários de Funcionamento</th>
+                        </tr>
+
+                        <tr>
+                            <th>2ª Feira</th>
+                            <th>3ª Feira</th>
+                            <th>4ª Feira</th>
+                            <th>5ª Feira</th>
+                            <th>6ª Feira</th>
+                            <th>Sábado</th>
+                            <th>Domingos e Feriados</th>
+                        </tr>
+                    </thead>
+
+                    <tbody> 
+                        </tr>
+                            <td>07:00h até 19:00h</td>
+                            <td>07:00h até 19:00h</td>
+                            <td>07:00h até 19:00h</td>
+                            <td>07:00h até 19:00h</td>
+                            <td>07:00h até 19:00h</td> 
+                            <td>07:00h até 12:00</td>
+                            <td>Sem expediente</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="7">Marque um horário pelo whatsapp ou ligue para nós pelo <b>telefone</b> +55 (00) 00000-0000</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3930.112371799132!2d-49.20955596768144!3d-25.407191772117866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1737848861620!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Endereço: Avenida da Integração, nº 000, Bairro Alto</p>
+            </div>
+    
+            <div class="footer">
+                <p>Contato: +55 (00) 00000-000 - <strong>CLÍNICA PARA VOCÊ</strong> - Endereço: Avenida da Integração, nº 000, Bairro Alto - <i><b>Created: Helio Junior.</b></i></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

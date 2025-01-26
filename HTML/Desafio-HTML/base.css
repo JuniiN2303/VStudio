@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    background-color: #f1f1f1;
+    justify-content: center;
+}
+
+.content h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -12px;
+    background:linear-gradient(to right, #f39999, #b90505);
+    background-clip: text;
+    color:transparent;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    background-color: rgb(0, 97, 97);
+    position: relative;
+    top: 40px
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    border: solid 1px black;
+}
+
+.menu {
+    display:flex;
+    width: 160px;
+    justify-content: right;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: -16px; right: 16px;
+}
+
+.menu li:hover {
+    background-color: #68ff89;
+}
+
+.menu li {
+    list-style: none;
+    background-color: #00ee3b;
+    padding: 5px 10px;
+    border: solid 1px black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 97, 97);
+    border: solid 1px black;
+}
+
+.content {
+    background-color: rgb(0, 139, 139);
+    min-height: 535px;
+    padding: 20px;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(0, 14, 139);
+    min-height: 45px;
+    justify-content: right;
+    align-items: center;
+    color:white;
+    border: solid 1px black;
+}

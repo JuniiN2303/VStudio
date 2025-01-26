@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+
+        .content form {
+            margin-top: 20px;
+        }
+
+        input[type=email] {
+            width: 750px;
+        }
+
+        input[type=text] {
+            width: 750px;
+        }
+
+        textarea {
+            width: 750px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="1.Index.html">Página Inicial</a></li>
+                <li><a href="2.About-us.html">Sobre nós</a></li>
+                <li><a href="3.Atendimento.html">Funcionamento</a></li>
+                <li><a href="4.Contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img id="imgsobre" src="imgs/contact.png" width="77">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h1>Entre em contato conosco:</h1>
+                
+                <form method="get">
+                        <label><b>Nome Completo:</b></label><br> <input type="text"> <br>
+                        <label><b>E-mail:</b></label><br> <input type="email"><br>
+                        <label><b>Selecione um Assunto especifico</b></label> <br>
+                        <select>
+                            <option>Nada selecionado</option>
+                            <option>Marcar consulta médica</option>
+                            <option>Reclamação</option>
+                            <option>Informação</option>
+                        </select><br>
+                        <label><b>Assunto:</label></b> <br>
+                        <input type="text"><br>
+                        <label><b>Descreva-o:</b></label> <br>
+                        <textarea></textarea><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+                
+            </div>
+    
+            <div class="footer">
+                <p>Contato: +55 (00) 00000-000 - <strong>CLÍNICA PARA VOCÊ</strong> - Endereço: Avenida da Integração, nº 000, Bairro Alto - <i><b>Created: Helio Junior.</b></i></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
